@@ -1,5 +1,7 @@
 # Kalm - Kubernetes Application Manager
 
+[![CIS](https://app.soluble.cloud/api/v1/public/badges/9be8cf85-b28c-49fe-8e52-276c228bdae1.svg?orgId=561911742905)](https://app.soluble.cloud/repos/details/github.com/mollypi/kalm?orgId=561911742905)  [![IaC](https://app.soluble.cloud/api/v1/public/badges/21d99375-9c99-41f6-bbe7-37062b2e8060.svg?orgId=561911742905)](https://app.soluble.cloud/repos/details/github.com/mollypi/kalm?orgId=561911742905)  [![Git](https://app.soluble.cloud/api/v1/public/badges/4d39b4e8-5f56-44b5-bd11-efc2912e96de.svg?orgId=561911742905)](https://app.soluble.cloud/repos/details/github.com/mollypi/kalm?orgId=561911742905)  
+
 [![CircleCI](https://circleci.com/gh/kalmhq/kalm.svg?style=svg)](https://circleci.com/gh/kalmhq/kalm) [![Go Report](https://goreportcard.com/badge/github.com/kalmhq/kalm)](https://goreportcard.com/badge/github.com/kalmhq/kalm)
 
 Kalm provides a web interface that makes it easy to perform common Kubernetes workflows, including:
