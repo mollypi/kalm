@@ -1,0 +1,1221 @@
+repo_name: mollypi/kalm
+report_id: 26d8350f26ffd0a16cd663a7f47f8ee4
+repo_type: Public
+timestamp: '2023-11-15T05:32:58+00:00'
+requested_by: infrar
+provider: github
+branch: main
+detected_tools_count: 88
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: Chart.js
+  description: Simple, clean and engaging charts for designers and developers
+  website_url: http://www.chartjs.org/
+  version: 2.9.3
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3866/_GD1-XrU_400x400.jpg
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-03-27 16:07:56.000000000 Z
+- name: Echo
+  description: High performance, extensible, minimalist Go web framework
+  website_url: https://echo.labstack.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/4996/9P0MlumU_400x400.jpg
+  detection_source: api/go.mod
+  last_updated_by: david
+  last_updated_on: 2020-03-11 06:13:16.000000000 Z
+- name: Material-UI
+  description: Material UI is a library of React UI components that implements Google's
+    Material Design.
+  website_url: https://github.com/mui/material-ui
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1904/default_44d81cb9fadbc3688b7e91a6d5217d0ea5358b57.png
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-06-30 05:39:52.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  version: 10.0.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: Dockerfile
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-03-17 10:18:23.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source: controller/go.mod
+  last_updated_by: Liu Mingmin
+  last_updated_on: 2020-11-25 08:38:32.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-12-02 15:54:16.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 5.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-12-02 15:54:16.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.0.5
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: GongHe
+  last_updated_on: 2020-06-20 10:40:20.000000000 Z
+- name: Storybook
+  description: Build bulletproof UI components faster
+  website_url: https://storybook.js.org/
+  version: 5.3.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/9240/sOct-Txm_400x400.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: GongHe
+  last_updated_on: 2020-09-06 16:58:59.000000000 Z
+- name: redux-thunk
+  description: Thunk middleware for Redux
+  website_url: https://github.com/gaearon/redux-thunk
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/5448/13142323.png
+  detection_source: frontend/package.json
+  last_updated_by: GongHe
+  last_updated_on: 2020-06-20 10:40:20.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source: controller/go.mod
+  last_updated_by: Liu Mingmin
+  last_updated_on: 2020-11-25 08:38:32.000000000 Z
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source: ".circleci/config.yml"
+  last_updated_by: Tian
+  last_updated_on: 2021-04-03 21:07:20.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source: codecov.yml
+  last_updated_by: david
+  last_updated_on: 2020-07-22 04:18:23.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-01-06 10:31:43.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/lighthouse.yml"
+  last_updated_by: david
+  last_updated_on: 2020-08-24 09:12:17.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 26.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-01-06 10:31:43.000000000 Z
+- name: Kibana
+  description: Visualize your Elasticsearch data and navigate the Elastic Stack
+  website_url: https://www.elastic.co/kibana
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/1722/Image_2019-05-20_at_4.53.31_PM.png
+  detection_source: controller/resources/elk/kibana.yml
+  last_updated_by: Liu Mingmin
+  last_updated_on: 2020-03-20 15:04:43.000000000 Z
+- name: Kubernetes
+  description: Manage a cluster of Linux containers as a single system to accelerate
+    Dev and simplify Ops
+  website_url: http://kubernetes.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
+  detection_source: operator/go.mod
+  last_updated_by: kevin.zhang
+  last_updated_on: 2020-08-05 17:27:59.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 1.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: iAladdin
+  last_updated_on: 2020-06-30 11:24:59.000000000 Z
+- name: Rollbar
+  description: Proactively discover, predict, and remediate errors.
+  website_url: https://rollbar.com/
+  open_source: false
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Exception Monitoring
+  image_url: https://img.stackshare.io/service/328/default_3147629185038a15dd41907749544023633da1ea.png
+  detection_source: frontend/package.json
+  last_updated_by: wanglei
+  last_updated_on: 2020-02-26 04:16:50.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source: operator/go.mod
+  last_updated_by: david
+  last_updated_on: 2020-07-23 04:02:34.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 4.44.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: GongHe
+  last_updated_on: 2020-08-10 08:10:35.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-01-06 10:31:43.000000000 Z
+- name: Casbin
+  description: An authorization library that supports access control models like ACL,
+    RBAC, ABAC in Golang
+  website_url: https://casbin.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/12690/T0Sj0TsI_400x400.jpg
+  detection_source: api/go.mod
+  last_updated_by: kevin.zhang
+  last_updated_on: 2020-11-20 07:26:38.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.19
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: wanglei
+  last_updated_on: 2020-09-16 09:06:45.000000000 Z
+- name: OpenAPI
+  description: Allows the owner of a network-accessible service to give universal
+    access
+  website_url: https://www.openapis.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: API Tools
+  image_url: https://img.stackshare.io/service/9792/L8C2-2bd_400x400.jpg
+  detection_source: controller/go.mod
+  last_updated_by: david
+  last_updated_on: 2020-01-13 09:59:14.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.19.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-02-14 17:03:04.000000000 Z
+- name: date-fns
+  description: Modern JavaScript date utility library
+  website_url: https://date-fns.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
+  detection_source: frontend/package.json
+  last_updated_by: iAladdin
+  last_updated_on: 2020-08-13 06:22:26.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source: frontend/package.json
+  last_updated_by: iAladdin
+  last_updated_on: 2020-08-13 06:22:26.000000000 Z
+- name: yup
+  website_url: https://github.com/jquense/yup
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10756/339286.png
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-01-06 10:31:43.000000000 Z
+- name: "@material-ui/core"
+  description: React components that implement Google's Material Design
+  package_url: https://www.npmjs.com/@material-ui/core
+  version: 4.9.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16271/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-06-30 05:39:52.000000000 Z
+- name: "@material-ui/icons"
+  description: Material Design Svg Icons converted to Material-UI React components
+  package_url: https://www.npmjs.com/@material-ui/icons
+  version: 4.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16471/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-06-30 05:39:52.000000000 Z
+- name: "@material-ui/lab"
+  description: Material-UI Lab - Incubator for Material-UI React components
+  package_url: https://www.npmjs.com/@material-ui/lab
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18760/default_b057657dca80f65f97b5bbe8ba405ffa92071739.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-06-30 05:39:52.000000000 Z
+- name: "@storybook/addon-a11y"
+  description: A11y addon for storybook
+  package_url: https://www.npmjs.com/@storybook/addon-a11y
+  version: 5.3.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17117/default_9746cbb559e39df4afd8298f9a252dff8519e646.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: GongHe
+  last_updated_on: 2020-09-06 16:58:59.000000000 Z
+- name: "@storybook/addon-actions"
+  description: Action Logger addon for storybook
+  package_url: https://www.npmjs.com/@storybook/addon-actions
+  version: 5.3.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16126/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: wanglei
+  last_updated_on: 2020-09-16 09:06:45.000000000 Z
+- name: "@storybook/addon-backgrounds"
+  description: A storybook addon to show different backgrounds for your preview
+  package_url: https://www.npmjs.com/@storybook/addon-backgrounds
+  version: 5.3.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17841/default_dc034f75f103514d23b4d1a7fe578415d63216ee.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: GongHe
+  last_updated_on: 2020-09-06 16:58:59.000000000 Z
+- name: "@storybook/addon-docs"
+  description: Superior documentation for your components
+  package_url: https://www.npmjs.com/@storybook/addon-docs
+  version: 5.3.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17835/default_abcc2eea82e62d338a749f334647866df76198b8.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: GongHe
+  last_updated_on: 2020-09-06 16:58:59.000000000 Z
+- name: "@storybook/addon-info"
+  description: A Storybook addon to show additional information for your stories
+  package_url: https://www.npmjs.com/@storybook/addon-info
+  version: 5.3.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16414/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: GongHe
+  last_updated_on: 2020-09-06 16:58:59.000000000 Z
+- name: "@storybook/addon-knobs"
+  description: Storybook Addon Prop Editor Component
+  package_url: https://www.npmjs.com/@storybook/addon-knobs
+  version: 5.3.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16279/default_3b7197abc4df3d7fa7c5292f17b2e6fb0cd1c8d4.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: GongHe
+  last_updated_on: 2020-09-06 16:58:59.000000000 Z
+- name: "@storybook/addon-links"
+  description: Story Links addon for storybook
+  package_url: https://www.npmjs.com/@storybook/addon-links
+  version: 5.3.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16204/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: GongHe
+  last_updated_on: 2020-09-06 16:58:59.000000000 Z
+- name: "@storybook/addon-notes"
+  description: Write notes for your Storybook stories
+  package_url: https://www.npmjs.com/@storybook/addon-notes
+  version: 5.3.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16900/default_e65289f03a07faa8d49ce16c483f18c4f8a98db9.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: GongHe
+  last_updated_on: 2020-09-06 16:58:59.000000000 Z
+- name: "@storybook/addon-storysource"
+  description: Stories addon for storybook
+  package_url: https://www.npmjs.com/@storybook/addon-storysource
+  version: 5.3.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16977/default_3823aba25646a3f105cc15ee9df24fdf78972314.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: GongHe
+  last_updated_on: 2020-09-06 16:58:59.000000000 Z
+- name: "@storybook/addon-viewport"
+  description: Storybook addon to change the viewport size to mobile
+  package_url: https://www.npmjs.com/@storybook/addon-viewport
+  version: 5.3.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16893/default_143d92b1fc944107cf48a3ab42a2a347bf3d91b5.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: GongHe
+  last_updated_on: 2020-09-06 16:58:59.000000000 Z
+- name: "@storybook/addons"
+  description: Storybook addons store
+  package_url: https://www.npmjs.com/@storybook/addons
+  version: 5.3.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16200/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: GongHe
+  last_updated_on: 2020-09-06 16:58:59.000000000 Z
+- name: "@storybook/react"
+  description: 'Storybook for React: Develop React Component in isolation with Hot
+    Reloading'
+  package_url: https://www.npmjs.com/@storybook/react
+  version: 6.0.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16042/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-12-02 15:54:16.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 4.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-12-02 15:54:16.000000000 Z
+- name: "@types/debug"
+  description: TypeScript definitions for debug
+  package_url: https://www.npmjs.com/@types/debug
+  version: 4.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16332/default_e8196e273db814cf9be505b35dec386fafb0dbaa.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-09-23 07:48:05.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 24.0.25
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-09-23 07:48:05.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.161
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-09-23 07:48:05.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 12.12.24
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-12-02 15:54:16.000000000 Z
+- name: "@types/qs"
+  description: TypeScript definitions for qs
+  package_url: https://www.npmjs.com/@types/qs
+  version: 6.9.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17032/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-09-23 07:48:05.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 16.9.17
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-12-02 15:54:16.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 16.9.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-12-02 15:54:16.000000000 Z
+- name: "@types/react-redux"
+  description: TypeScript definitions for react-redux
+  package_url: https://www.npmjs.com/@types/react-redux
+  version: 7.1.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16687/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-12-02 15:54:16.000000000 Z
+- name: "@types/react-router-dom"
+  description: TypeScript definitions for React Router
+  package_url: https://www.npmjs.com/@types/react-router-dom
+  version: 5.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16557/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-12-02 15:54:16.000000000 Z
+- name: "@types/storybook__addon-actions"
+  description: Stub TypeScript definitions entry for @storybook/addon-actions
+  package_url: https://www.npmjs.com/@types/storybook__addon-actions
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17981/default_3c26cdeaec6eea61500856203ee8d97e81b93f76.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-09-23 07:48:05.000000000 Z
+- name: "@types/storybook__react"
+  description: Stub TypeScript definitions entry for @storybook/react
+  package_url: https://www.npmjs.com/@types/storybook__react
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16685/default_9cd376f2200c8f6c32ebd690bb6c290852dee64d.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-12-02 15:54:16.000000000 Z
+- name: "@types/yup"
+  description: TypeScript definitions for yup
+  package_url: https://www.npmjs.com/@types/yup
+  version: 0.29.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18670/default_d9dab6271253d9850df2c233b4312e776e118959.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-09-23 07:48:05.000000000 Z
+- name: connected-react-router
+  description: A Redux binding for React Router v4 and v5
+  package_url: https://www.npmjs.com/connected-react-router
+  version: 6.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18338/default_a605b2929de4c3bd4460a01b8dc144fde6aa5419.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-12-02 15:54:16.000000000 Z
+- name: debug
+  description: Small debugging utility
+  package_url: https://www.npmjs.com/debug
+  version: 2.6.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-03-25 16:21:18.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 6.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-07-06 09:53:49.000000000 Z
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 3.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-07-06 09:53:49.000000000 Z
+- name: event-emitter
+  description: Environment agnostic event emitter
+  package_url: https://www.npmjs.com/event-emitter
+  version: 0.3.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17850/default_369b3bf3ef062123a581e4817f09cb0004de7ff6.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: iAladdin
+  last_updated_on: 2020-07-03 16:34:50.000000000 Z
+- name: hoist-non-react-statics
+  description: Copies non-react specific statics from a child component to a parent
+    component
+  package_url: https://www.npmjs.com/hoist-non-react-statics
+  version: 3.3.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16478/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-12-02 15:54:16.000000000 Z
+- name: immer
+  description: Create your next immutable state by mutating the current one
+  package_url: https://www.npmjs.com/immer
+  version: 7.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16937/default_7b9968788548874538c601457e8dcd9c74bd2051.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: wanglei
+  last_updated_on: 2020-09-07 14:44:21.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in immer
+    cve_id: CVE-2021-23436
+    cve_url: https://github.com/advisories/GHSA-33f9-j839-rf8h
+    detected_date: Sep 3
+    severity: critical
+    first_patched: 9.0.6
+  - name: Prototype Pollution in immer
+    cve_id: CVE-2021-3757
+    cve_url: https://github.com/advisories/GHSA-c36v-fmgq-m8hx
+    detected_date: Sep 8
+    severity: high
+    first_patched: 9.0.6
+  - name: Prototype Pollution in immer
+    cve_id: CVE-2020-28477
+    cve_url: https://github.com/advisories/GHSA-9qmh-276g-x5pj
+    detected_date: Aug 22
+    severity: high
+    first_patched: 8.0.1
+- name: node-forge
+  description: JavaScript implementations of network transports
+  package_url: https://www.npmjs.com/node-forge
+  version: 0.10.0
+  license: BSD-3-Clause,GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17082/default_5b9eca95ab3651165eb280ed5e0bc9a9382ad24d.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-12-02 15:54:16.000000000 Z
+  vulnerabilities:
+  - name: Improper Verification of Cryptographic Signature in node-forge
+    cve_id: CVE-2022-24772
+    cve_url: https://github.com/advisories/GHSA-x4jg-mjrx-434g
+    detected_date: Mar 23
+    severity: high
+    first_patched: 1.3.0
+  - name: Improper Verification of Cryptographic Signature in node-forge
+    cve_id: CVE-2022-24771
+    cve_url: https://github.com/advisories/GHSA-cfm4-qjh2-4765
+    detected_date: Mar 23
+    severity: high
+    first_patched: 1.3.0
+  - name: Open Redirect in node-forge
+    cve_id: CVE-2022-0122
+    cve_url: https://github.com/advisories/GHSA-8fr3-hfg3-gpgp
+    detected_date: Jan 22
+    severity: moderate
+    first_patched: 1.0.0
+  - name: Improper Verification of Cryptographic Signature in `node-forge`
+    cve_id: CVE-2022-24773
+    cve_url: https://github.com/advisories/GHSA-2r2c-g63r-vccr
+    detected_date: Mar 23
+    severity: moderate
+    first_patched: 1.3.0
+  - name: URL parsing in node-forge could lead to undesired behavior.
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-gf8q-jrpm-jvxq
+    detected_date: Jan 8
+    severity: low
+    first_patched: 1.0.0
+  - name: Prototype Pollution in node-forge debug API.
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-5rrq-pxf6-6jx5
+    detected_date: Jan 8
+    severity: low
+    first_patched: 1.0.0
+- name: perfect-scrollbar
+  description: Minimalistic but perfect custom scrollbar plugin
+  package_url: https://www.npmjs.com/perfect-scrollbar
+  version: 1.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18340/default_a605b2929de4c3bd4460a01b8dc144fde6aa5419.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-12-02 15:54:16.000000000 Z
+- name: qs
+  description: A querystring parser that supports nesting and arrays
+  package_url: https://www.npmjs.com/qs
+  version: 6.9.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16125/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-01-06 10:31:43.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 6.9.7
+- name: react-ace
+  description: A react component for Ace Editor
+  package_url: https://www.npmjs.com/react-ace
+  version: 8.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18432/default_090197a87d306c919c7dbc09bfedd02e3b061236.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-12-02 15:54:16.000000000 Z
+- name: react-docgen-typescript-loader
+  description: Webpack loader to generate docgen information from TypeScript React
+    components
+  package_url: https://www.npmjs.com/react-docgen-typescript-loader
+  version: 3.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17306/default_b2015e9577d171c4c3f12c3c8d253c01fe63ba8d.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-12-02 15:54:16.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-12-02 15:54:16.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 7.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-12-02 15:54:16.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 5.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-12-02 15:54:16.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-12-02 15:54:16.000000000 Z
+- name: react-table
+  description: Hooks for building lightweight
+  package_url: https://www.npmjs.com/react-table
+  version: 7.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17860/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: david
+  last_updated_on: 2020-12-02 15:54:16.000000000 Z
+- name: redux-logger
+  description: Logger for Redux
+  package_url: https://www.npmjs.com/redux-logger
+  version: 3.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16512/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: GongHe
+  last_updated_on: 2020-06-20 10:40:20.000000000 Z
+- name: ts-loader
+  description: TypeScript loader for webpack
+  package_url: https://www.npmjs.com/ts-loader
+  version: 7.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15938/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: GongHe
+  last_updated_on: 2020-08-10 08:10:35.000000000 Z
+- name: webpack-bundle-analyzer
+  description: Webpack plugin and CLI utility that represents bundle content as convenient
+    interactive zoomable treemap
+  package_url: https://www.npmjs.com/webpack-bundle-analyzer
+  version: 3.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15991/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: GongHe
+  last_updated_on: 2020-08-10 08:10:35.000000000 Z
+- name: yaml
+  description: JavaScript parser and stringifier for YAML
+  package_url: https://www.npmjs.com/yaml
+  version: 1.10.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17426/default_4036a97a759f3ed3ec649b3a5fa230fe4d064a6a.png
+  detection_source_url: frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: GongHe
+  last_updated_on: 2020-08-17 13:37:46.000000000 Z
+- name: go-sqlite3
+  description: Sqlite3 driver for go using database/sql
+  package_url: https://pkg.go.dev/github.com/mattn/go-sqlite3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source: api/go.mod
+  last_updated_by: kevin.zhang
+  last_updated_on: 2020-06-04 10:21:48.000000000 Z
