@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 mollypi/kalm is built on the following main stack:
+
 - [CircleCI](https://circleci.com/) – Continuous Integration
 - [Rollbar](https://rollbar.com/) – Exception Monitoring
 - [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
@@ -37,11 +38,13 @@ mollypi/kalm is built on the following main stack:
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 mollypi/kalm is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg' alt='CircleCI'/> [CircleCI](https://circleci.com/) – Continuous Integration
 - <img width='25' height='25' src='https://img.stackshare.io/service/328/default_3147629185038a15dd41907749544023633da1ea.png' alt='Rollbar'/> [Rollbar](https://rollbar.com/) – Exception Monitoring
 - <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
@@ -77,14 +80,15 @@ mollypi/kalm is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [mollypi/kalm](https://github.com/mollypi/kalm)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|88<br/>Tools used|11/15/23 <br/>Report generated|
+|90<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -422,9 +426,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (50)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (52)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (49)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (51)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -462,6 +466,7 @@ Full tech stack [here](/techstack.md)
 |[eslint-plugin-prettier](https://www.npmjs.com/eslint-plugin-prettier)|v3.1.4|07/06/20|david |MIT|N/A|
 |[event-emitter](https://www.npmjs.com/event-emitter)|v0.3.5|07/03/20|iAladdin |MIT|N/A|
 |[hoist-non-react-statics](https://www.npmjs.com/hoist-non-react-statics)|v3.3.2|12/02/20|david |BSD-3-Clause|N/A|
+|[husky](https://www.npmjs.com/husky)|v4.2.5|08/13/20|iAladdin |MIT|N/A|
 |[immer](https://www.npmjs.com/immer)|v7.0.8|09/07/20|wanglei |MIT|[CVE-2021-23436](https://github.com/advisories/GHSA-33f9-j839-rf8h) (Critical)<br/>[CVE-2021-3757](https://github.com/advisories/GHSA-c36v-fmgq-m8hx) (High)<br/>[CVE-2020-28477](https://github.com/advisories/GHSA-9qmh-276g-x5pj) (High)|
 |[node-forge](https://www.npmjs.com/node-forge)|v0.10.0|12/02/20|david |BSD-3-Clause,GPL-2.0|[CVE-2022-24772](https://github.com/advisories/GHSA-x4jg-mjrx-434g) (High)<br/>[CVE-2022-24771](https://github.com/advisories/GHSA-cfm4-qjh2-4765) (High)<br/>[CVE-2022-0122](https://github.com/advisories/GHSA-8fr3-hfg3-gpgp) (Moderate)<br/>[CVE-2022-24773](https://github.com/advisories/GHSA-2r2c-g63r-vccr) (Moderate)<br/>[](https://github.com/advisories/GHSA-gf8q-jrpm-jvxq) (Low)<br/>[](https://github.com/advisories/GHSA-5rrq-pxf6-6jx5) (Low)|
 |[perfect-scrollbar](https://www.npmjs.com/perfect-scrollbar)|v1.5.0|12/02/20|david |MIT|N/A|
@@ -477,6 +482,7 @@ Full tech stack [here](/techstack.md)
 |[ts-loader](https://www.npmjs.com/ts-loader)|v7.0.5|08/10/20|GongHe |MIT|N/A|
 |[webpack-bundle-analyzer](https://www.npmjs.com/webpack-bundle-analyzer)|v3.8.0|08/10/20|GongHe |MIT|N/A|
 |[yaml](https://www.npmjs.com/yaml)|v1.10.0|08/17/20|GongHe |ISC|N/A|
+|[yup](https://www.npmjs.com/yup)|v0.29.3|01/06/20|david |MIT|N/A|
 
 
 ## <img width='24' height='24' src='https://img.stackshare.io/service/21112/default_1346bbda8fe03e4dce5601323a3ca47a10c1ae36.png'/> Go Packages (1)
@@ -488,4 +494,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
